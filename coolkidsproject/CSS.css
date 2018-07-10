@@ -1,0 +1,121 @@
+.header{
+	text-align: center;
+	background-image: url("loyola-hero.jpg");
+	background-repeat: no-repeat;
+	padding-bottom: 18%;
+	margin-top: 2%;
+	
+}
+
+#title{
+	padding: 10px;
+	text-decoration: bold;
+	text-align: left;
+	padding-right: 37%;
+
+}
+
+#title_subheading{
+	padding: 2%;
+	font-size: 24px;
+}
+
+.searchbar{
+	margin-bottom: 5%;
+	margin-top: 5%;
+	padding-right: 5%;
+}
+
+.search {
+	margin-top: 5%;
+}
+
+.navbar{
+	background:lightblue;
+}
+.login{
+	background:white;
+}
+
+.proff, .classes, .rating {
+	border-radius: 90%;
+	border: none;
+    color: white;
+    padding: 10%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+}
+
+.featured{
+	padding-bottom: 2%;
+	background-color: black;
+}
+
+h4 {
+	margin-bottom: 45%;
+	text-align: center;
+	padding-top: 3%;
+}
+.featprof {
+	background-color: red; 
+}
+.featprofbtn{
+	text-align: center;
+	border-radius: 40%;
+	padding: 2%;
+	margin-left: 38%;
+	margin-bottom: 15%;
+}
+.featclass {
+	background-color: blue;
+}
+.featclassbtn{
+	text-align: center;
+	border-radius: 40%;
+	padding: 2%;
+	margin-left: 36%;
+	margin-bottom: 15%;
+}
+
+.news {
+	text-align: center;
+	font-size: 30px;
+	padding: 10%;
+	background-image: url("news-pic.png");	
+
+}
+.whattotake{
+	background-color: yellow;
+}
+h5 {
+	text-align: center;
+	font-size: 30px;
+	padding: 3%;
+	text-decoration: bold;
+}
+
+.top3{
+	background-color: black;
+}
+h6{
+	text-align: center;
+	font-size: 24px;
+	padding: 3%;
+}
+.takeclass{
+	background-color: blue;
+}
+.take {
+	text-align: center;
+	padding-bottom: 5%;
+}
+.avoidclass{
+	background-color: red;
+}
+.avoid {
+	text-align: center;
+	padding-bottom: 5%;
+}
