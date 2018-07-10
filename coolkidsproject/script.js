@@ -10,12 +10,12 @@ avoidclass()
 // return rating 
 
 function takeclass(){
-	$(".take1").append("Intro to Business-Dr.");
-	$(".take2").append("Intro to Marketing-Dr.");
-	$(".take3").append("Intro to Finance");
+	$(".take1class").html("Intro to Business");
+	$(".take2class").html("Intro to Marketing");
+	$(".take3class").html("Intro to Finance");
 }
  function avoidclass(){
- 	$(".avoid1").append("Physics");
- 	$(".avoid2").append("Calculus");
- 	$(".avoid3").append("Chemistry");
+ 	$(".avoid1class").html("Physics");
+ 	$(".avoid2class").html("Calculus");
+ 	$(".avoid3class").html("Chemistry");
  }

@@ -1,5 +1,6 @@
 CREATE TABLE Professors (
 	ID integer(5) NOT NULL,
+	Prefix varchar(10) NOT NULL,
 	First_name varchar(100) NOT NULL,
 	Last_name varchar(200) NOT NULL,
 	Major_id integer(5) NOT NULL,

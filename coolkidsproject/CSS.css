@@ -37,7 +37,7 @@
 	background:white;
 }
 
-.proff, .classes, .rating {
+.profbtn, .classesbtn, .ratingbtn {
 	border-radius: 90%;
 	border: none;
     color: white;
@@ -118,4 +118,69 @@ h6{
 .avoid {
 	text-align: center;
 	padding-bottom: 5%;
+}
+
+/*Table Page*/
+
+.prof-table{
+	padding: 5%;
+	font-size: 34px;
+	text-align: center;
+	text-decoration: bold;
+	background-color: dodgerblue;
+}
+
+.table{
+	margin-bottom: 5%;
+	padding-top: 3%;
+	padding-right: 2%;
+	padding-left: 2%;
+	border-bottom-style: solid;
+	border-color: black;
+	background-color: grey;
+}
+
+.major-class{
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.rating-prof {
+	font-size: 54px;
+	padding-left: 8%;
+	padding-top: 40%;
+	padding-right: 7%;
+	padding-bottom: 40%;
+
+}
+.rating10{
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.professor-description {
+	
+}
+
+.prof-name{
+	text-align: left;
+
+}
+
+.prof-major{
+	font-size: 20px;
+	padding-top: 3%;
+	padding-left: 4%;
+}
+.prof-classes{
+	font-size: 20px;
+	padding-top: 3%;
+	padding-left: 4%;
+}
+
+.prof-descrip{
+	text-align: left;
+}
+h1{
+	text-align: left;
 }
