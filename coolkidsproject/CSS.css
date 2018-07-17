@@ -2,10 +2,10 @@
 	text-align: center;
 	background-image: url(http://www.loyno.edu/img/landingpages/CampusLife_01_fade.jpg);
 	background-repeat: no-repeat;
-	padding-bottom: 18%;
-	margin-top: 1%;
+	border-top: solid grey;
 	height: 100%;
 	color: white;
+	background-size: 1440px
 	
 }
 
@@ -13,9 +13,7 @@
 	padding: 10px;
 	text-decoration: bold;
 	text-align: left;
-	padding-right: 37%;
 	color:white;
-
 }
 
 #title_subheading{
@@ -24,8 +22,8 @@
 }
 
 .searchbar{
-	margin-bottom: ;
-	margin-top: 5%;
+/*	margin-bottom: ;
+*/	margin-top: 5%;
 	padding-right: 5%;
 }
 
@@ -42,7 +40,7 @@
 
 .profbtn, .classesbtn, .ratingbtn {
 	border-radius: 90%;
-	border: none;
+	border: solid black;
     color: maroon;
     padding: 10%;
     text-align: center;
@@ -51,53 +49,70 @@
     font-size: 20px;
     margin: 4px 2px;
 }
-.w3-modal{
+
+.featuredobjects{
+		background-color: #dbb800;
+	margin:3px;
 }
+
+
 
 .featured{
 	padding-bottom: 2%;
-	background-color: black;
+	background-color: white;
 }
 
-h4 {
+h3,h4 {
 	margin-bottom: 45%;
+	padding-bottom: 10px;
 	text-align: center;
 	padding-top: 3%;
+	background: rgba(223, 153, 0, .5);
+	font-family: "PMNCaeciliaW01-45Light"
+}
+
+.modalText{
+	color:black;
 }
 .featprof {
 	background-image: url(http://apply.loyno.edu/sites/apply.loyno.edu/files/loyno_life_gallery/music-education.jpg);
 	color:white;
+	background-size: 705px 430px;
 }
-
-
 
 .featprofbtn{
 	text-align: center;
 	border-radius: 40%;
 	padding: 2%;
 	margin-left: 38%;
-	margin-bottom: 15%;
+	margin-bottom: 10%;
 }
 .featclass {
-	background-color: blue;
+	background-image: url(http://wooderice.com/wp-content/uploads/2014/08/college2.jpg);
+	color: white;
+	background-size: 705px 430px;
 }
 .featclassbtn{
 	text-align: center;
 	border-radius: 40%;
 	padding: 2%;
 	margin-left: 36%;
-	margin-bottom: 15%;
+	margin-bottom: 10%;
 }
 
 .news {
 	text-align: center;
 	font-size: 30px;
-	padding: 10%;
-	background-image: url("news-pic.png");	
-
+	padding: 8%;
+	margin-top: ;
+	background-image: url(http://cas.loyno.edu/sites/cas.loyno.edu/files/styles/header-lg/public/header_images/maria-celeste-arraras-loyola-university-new-orleans.jpg?itok=KdPrGIeU);	
+	background-repeat: no-repeat;
+	background-position: center;
+	color:white;
 }
 .whattotake{
-	background-color: yellow;
+	background-color: #dbb800;
+	margin:3px;
 }
 h5 {
 	text-align: center;
@@ -107,7 +122,7 @@ h5 {
 }
 
 .top3{
-	background-color: black;
+	background-color:   #9b0000;
 }
 h6{
 	text-align: center;
@@ -115,18 +130,29 @@ h6{
 	padding: 3%;
 }
 .takeclass{
-	background-color: blue;
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/c/c9/Outdoor_Classes_%283944501231%29.jpg);
+	background-size: 705px 268px;
+	color: white;
 }
 .take {
 	text-align: center;
 	padding-bottom: 5%;
 }
 .avoidclass{
-	background-color: red;
+	background-image: url(https://dailyillini.com/wp-content/uploads/2016/10/A4_Editorial-1-900x600.jpg);
+	background-size: 705px 269px;
+	color:white;
 }
 .avoid {
 	text-align: center;
 	padding-bottom: 5%;
+	color:white;
+}
+.sponsor{
+	background:linear-gradient(#8E0E00, #93291E);
+	text-align:center;
+	color:white;
+	height: 25px
 }
 
 /*Table Page*/
@@ -136,7 +162,7 @@ h6{
 	font-size: 34px;
 	text-align: center;
 	text-decoration: bold;
-	background-color: dodgerblue;
+	background:linear-gradient(#8E0E00, #93291E);
 }
 
 .table{
@@ -146,12 +172,12 @@ h6{
 	padding-left: 2%;
 	border-bottom-style: solid;
 	border-color: black;
-	background-color: grey;
+	background-color: lightgrey;
 }
 
 .major-class{
 	padding-top: 5%;
-	padding-bottom: 5%;
+	
 }
 
 .rating-prof {
@@ -162,24 +188,27 @@ h6{
 	padding-bottom: 40%;
 
 }
+#profRating{
+	color: maroon;
+}
 .rating10{
 	margin-right: 5%;
 	margin-left: 5%;
 }
 
 .professor-description {
-	
+	display: inline-block;
 }
 
 .prof-name{
 	text-align: left;
-
 }
 
 .prof-major{
 	font-size: 20px;
 	padding-top: 3%;
 	padding-left: 4%;
+	display: inline-table;
 }
 .prof-classes{
 	font-size: 20px;
@@ -193,3 +222,37 @@ h6{
 h1{
 	text-align: left;
 }
+#photo{
+	width: 300px;
+	height:300px;
+	margin-top: 75px;
+}
+
+h2{
+	margin:auto;
+	padding:auto;
+}
+
+/*Class page*/
+.classRating{
+font-size: 20px;
+	padding-top: 3%;
+	padding-left: 4%;
+}
+
+.class-name{
+	font-size: 20px;
+	padding-top: 1%;
+	padding-left: 4%;
+	text-align: ;
+}
+.classDescrip{
+	display: inline-block;
+}
+.desciption{
+	display: inline-block;
+}
+#className{
+	color:white;
+}
+ 

@@ -8,14 +8,22 @@
     crossorigin="anonymous"></script>
 	<script src="script.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<title>Rate My Loyno</title>
 </head>
 
 <body>
 
  <div class="navbar">
- 	<button onclick="document.getElementById('id03').style.display='block'"
-class="w3-button">Login</button>
+ 	<i class="material-icons" style="display:inline;font-size:48px"><a href="html.html">home</a></i>
+
+ 	<h1 id="title" style="font-family:'Dancing Script',cursive;text-align:center;"> Rate my Loyno Professor</h1>
+ 	<div class="loginClick">
+ 	 	<button onclick="document.getElementById('id03').style.display='block'"
+class="w3-button" style="background:rgba(139, 242, 242, .5)">Login</button>
+
 
 <!-- The Modal -->
 					<div id="id03" class="w3-modal">
@@ -41,48 +49,48 @@ class="w3-button">Login</button>
 						</div>
 					</div>
 	</div>
- 	<h3 id="title"> Rate my Loyno Professor</h3>
  </div>
+</div>
 
 
- 
 	<div class="header">
-			<p id="title_subheading"> Find your dream class today</p>
-			<input type="text" class="searchbar" placeholder="Find Your Professor or Class">
+			<p id="title_subheading" style="font-family:PMNCaeciliaW01-45Light"> Find your dream class today</p>
+			<input type="text" class="searchbar" placeholder="Find your next class">
 			<div class="search">
 				<div class="row">
 					<div class="col-sm-4">
-						<button class="profbtn"><a href="">Professors</a></button>
+						<button class="profbtn" style="font-family:PMNCaeciliaW01-45Light"><a href="prof-table.html">Professors</a></button>
 					</div>
 					<div class="col-sm-4">
-						<button class="classesbtn"><a href="">Classes</a></button>
+						<button class="classesbtn" style="font-family:PMNCaeciliaW01-45Light"><a href="class-table.html">Classes</a></button>
 					</div>
 					<div class="col-sm-4">
-						<button class="ratingbtn"><a href="">Rating</a></button>
+						<button class="ratingbtn" style="font-family:PMNCaeciliaW01-45Light"><a href="prof-table.html">Ratings</a></button>
 					</div>
 				</div>
-<!-- 				<i class="fa fa-graduation-cap" style="font-size: 50px;padding-right:50px;"></i>
-				<i class="fa fa-book" style="font-size: 50px;padding-right:50px;"></i>
-				<i class= "fa fa-star" style="font-size: 50px; padding-right:50px;"></i> -->
+
 			</div>
 	</div>
-
+<div class="featuredobjects">
+	<h5 style="font-family:PMNCaeciliaW01-45Light">What's Popular</h5>
+</div>
 	<div class="featured">
 		<div class="row">
 			<div class="col-sm-6">
 				<div class="featprof">
-					<h4>Professor of the Month</h4>
+					<h3>Featured Professor</h3>
 					<button onclick="document.getElementById('id01').style.display='block'"
-class="w3-button">Read all about it!</button>
+						class="w3-button w3-xlarge" style="align:center;background:rgba(139, 0, 0, .5);font-family:PMNCaeciliaW01-45Light">Read all about it!</button>
+					
 
 <!-- The Modal -->
-					<div id="id01" class="w3-modal" style:="padding: 5px">
+					<div id="id01" class="w3-modal">
  					 <div class="w3-modal-content">
     					<div class="w3-container"style:="padding: 5px">
      					 <span onclick="document.getElementById('id01').style.display='none'"
       					class="w3-button w3-display-topright">&times;</span>
      						 <img src="https://www.thoughtco.com/thmb/LOrQn5DfLx6fcyTptYVD8SuCmuk=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/rulesforteachers-58605fbb3df78ce2c38044e5.jpg" alt="featured teacher">
-     						 <p> say hi teacher</p>
+     						 <p class="modalText"> say hi teacher</p>
     					</div>
   					</div>
 				</div>
@@ -90,37 +98,40 @@ class="w3-button">Read all about it!</button>
 		</div>
 			<div class="col-sm-6">
 				<div class="featclass">
-					<h4>Top Classes</h4>
+					<h3>Featured Class</h3>
+							
 					<button onclick="document.getElementById('id02').style.display='block'"
-						class="w3-button">Check it out!</button>
+						class="w3-button w3-xlarge"style="background:rgba(139, 0, 0, .5);font-family:PMNCaeciliaW01-45Light">Check it out!</button>
 
 <!-- The Modal -->
 					<div id="id02" class="w3-modal">
  					 <div class="w3-modal-content">
     					<div class="w3-container">
-     					 <span onclick="document.getElementById('id02').style.display='none'" 
+     					 <span onclick="document.getElementById('id02').style.display='none'"
       					class="w3-button w3-display-topright">&times;</span>
      						 <img  src="https://i.kinja-img.com/gawker-media/image/upload/s--yYhSQE85--/c_scale,f_auto,fl_progressive,q_80,w_800/msagz7qrn7mhla6gvmur.jpg" alt="class-room">
+     						 <p class="modalText" style="font-family:PMNCaeciliaW01-45Light"> Say hi class</p>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
 </div>
+</div>
 	<div class="news">
-		<p><a href="https://www.loyolamaroon.com/" target="_blank">Wolfpack News/Updates</a></p>
+		<p><a href="https://www.loyolamaroon.com/" target="_blank" style="background:rgba(139, 0, 0, .5);font-family:PMNCaeciliaW01-45Light;text-decoration:none">Wolfpack News/Updates</a></p>
 	</div>
 
 	<div class="whattotake">
-		<h5>What To Take</h5>
+		<h5 style="font-family:PMNCaeciliaW01-45Light">What To Take</h5>
 	</div>
 
 	<div class="top3">
 		<div class="row">
 			<div class="col-sm-6">
 				<div class="takeclass">
-					<h6>Need An A</h6>
-						<div class="take">
+					<h6 style="background: rgba(223, 153, 0, .5);">Highest Rated Classes</h6>
+						<div class="take" style="background:rgba(139, 0, 0, .3)">
 							<p class="take1">
 								<div class="row">
 									<div class="col-sm-4">
@@ -193,14 +204,14 @@ class="w3-button">Read all about it!</button>
 									</div>
 								</div>
 							</p>
-							<p class="takemore"><a href="prof-table.html">Click for more</a></p>
+							<p class="takemore"><a href="prof-table.html" style="background:rgba(139, 0, 0, .5)">Click for more</a></p>
 						</div>
 				</div>
 			</div>
 			<div class="col-sm-6">
 				<div class="avoidclass">
-					<h6>Avoid These</h6>
-						<div class="avoid">
+					<h6 style="background: rgba(223, 153, 0, .5);">Avoid These Classes</h6>
+						<div class="avoid" style="background:rgba(139, 0, 0, .3)">
 							<p class="avoid1">
 									<div class="row">
 									<div class="col-sm-4">
@@ -273,13 +284,19 @@ class="w3-button">Read all about it!</button>
 									</div>
 								</div>
 							</p>
-							<p class="avoidmore"><a href="prof-table.html">Click for more</a></p>
+							<p class="avoidmore" style="font-family:PMNCaeciliaW01-45Light"><a href="class-table.html">Click for more</a></p>
 						</div>
 				</div>
 			</div>
 		</div>
 	</div>
+</div>
 
 
 </body>
+<footer>
+	<div class="sponsor">
+		<p>Powered by CoolKids</p>
+	</div>
+</footer>
 </html>

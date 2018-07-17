@@ -10,7 +10,8 @@
 	<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
 	<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<title>Professor Table</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Class Table</title>
 </head>
 <body>
  <div class="navbar">
@@ -66,14 +67,14 @@ class="w3-button" style="align:center;background:rgba(139, 242, 242, .5)">Login<
 	</div>
 
 	
-	<div class="Prof-table" style="color:white">Loyola Professors<br>
-		<input type="text" class="searchbar" placeholder="Find a Professor">
-	</div>
+	<div class="Prof-table" style="color:white">Class Ratings<br>
+	<input type="text" class="searchbar" placeholder="Find a Class">
+</div>
 	<div class="table">
 		<div class="row">
-			<!-- <div class="col-sm-2">
+			<div class="col-sm-2">
 				<div class="row">
-					<div class="rating-prof">
+					<div class="classRating">
 						<div class="col-sm-1">
 							<div class="rating-numb" style="float:right">
 								4
@@ -88,50 +89,57 @@ class="w3-button" style="align:center;background:rgba(139, 242, 242, .5)">Login<
 				</div>
 
 				<div class="prof-rating">
-				</div>
-			</div> -->
-			<div class="col-sm-3">
-				<div class="headshot">
-					<img id="photo"> </img>
+
 				</div>
 			</div>
-			<div class="col-sm-6">
-				<div class="professor-description">
-					<div class="prof-name">
-						<h1 id="profName"> </h1>
-						<div class="prof-rating">
-							<h2 id="profRating"></h2>
+			
+			</div>
+			<div class="col-sm-12">
+				<div class="class-description">
+					<div class="class-name">
+						<h2 id="className"> </h2>
 					</div>
 						<div class="major-class">
 							<div class="row">
 								<div class="col-sm-6">
 									<div class="row">
-										<div class="col-sm-12">
-											<h2>School:</h2>
-											<h3 id="profSchool"></h3>
-										</div>
 										<div class="col-sm-6">
+											<h2>School:</h2>
+											<h3 id="classSchool"></h3>
+										</div>
+										<!-- <div class="col-sm-6">
 											<div class="prof-major">
 												
 											</div>
-										</div>
+										</div> -->
 									</div>
 								</div>
 								<div class="col-sm-6">
 									<div class="row">
-										<div class="col-sm-12">
+										<!-- <div class="col-sm-4">
+											<h2>Credit Hours:</h2>
+										</div>
+										<div class="col-sm-4">
+											<div class="Credits">
+												<h3 id="majorCredits"> </h3>
+											</div>
+										</div> -->
+										<h2 class="col-sm-8 description">Class Description:</h2>
+						<div class="prof-descrip">
+							<p id="classDescrip">
+								
+							</p>
+						</div>
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="row">
+										<div class="col-sm-6">
 											<h2>Major:</h2>
 										
+										<!-- <div class="col-sm-5">
+											<div class="prof-classes"> -->
 												<h3 id="profMajor"> </h3>
-											</div>
-										</div>
-									</div>
-									<div class="col-sm-12">
-									<div class="row">
-										<div class="col-sm-12">
-											<h2>Classes:</h2>
-										
-												<h4 id="profClasses"> </h4>
 											</div>
 										</div>
 									</div>
@@ -139,16 +147,11 @@ class="w3-button" style="align:center;background:rgba(139, 242, 242, .5)">Login<
 							</div>
 						</div>
 							
-					<h2>About me</h2>
-						<div class="prof-descrip">
-							<p id="profDescrip" style="background: rgba(223, 153, 0, .5); padding:5px;">
-								
-							</p>
-						</div>
-					
 				</div>
+				
 			</div>
-		</div>		
+		</div>	
+
 	</div>
 			
 
