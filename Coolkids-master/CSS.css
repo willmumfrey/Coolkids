@@ -1,0 +1,16 @@
+.header{
+	text-align: center;
+	background:lightgrey;	
+}
+
+#title{
+	padding: 10px;
+	text-decoration: bold;
+}
+.navbar{
+	background:lightblue;
+}
+.login{
+	background:white;
+}
+
